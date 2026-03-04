@@ -2,9 +2,14 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
+} */
+
+:root {
+  --background: #fafafa;
+  --foreground: #18181b;
 }
 
 @theme inline {
@@ -14,11 +19,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+/* .dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+} */
+
+.dark {
+  --background: #09090b;
+  --foreground: #f4f4f5;
 }
 
 body {
