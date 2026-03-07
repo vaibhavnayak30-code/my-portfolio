@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
+      <body className="bg-white text-black dark:bg-zinc-900 dark:text-white min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}
