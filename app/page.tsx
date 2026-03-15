@@ -2,7 +2,16 @@
 
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaYoutube,
+  FaMedium,
+  FaFileAlt
+} from "react-icons/fa";
+
+import { MdEmail } from "react-icons/md";
+import { AiOutlineInfoCircle } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -42,17 +51,33 @@ export default function Home() {
           LLMs, and modern web technologies.
         </p>
 
-        <div className="flex gap-6 mt-8 text-2xl">
-          <a href="#" className="hover:scale-110 transition">
-            <FaGithub />
-          </a>
-          <a href="#" className="hover:scale-110 transition">
-            <FaLinkedin />
-          </a>
-          <a href="#" className="hover:scale-110 transition">
-            <FaYoutube />
-          </a>
-        </div>
+        <div className="flex justify-center gap-6 mt-6 text-2xl">
+
+  <a href="mailto:vaibhavdeveloper1998@email.com" className="hover:text-gray-600">
+    <MdEmail />
+  </a>
+
+  <a href="https://www.linkedin.com/in/vaibhav-nayak03/" target="_blank">
+    <FaLinkedin className="hover:text-gray-600" />
+  </a>
+
+  <a href="https://github.com/vaibhavnayak30-code" target="_blank">
+    <FaGithub className="hover:text-gray-600" />
+  </a>
+
+  {/* <a href="https://youtube.com" target="_blank">
+    <FaYoutube className="hover:text-gray-600" />
+  </a>
+
+  <a href="https://medium.com/@yourusername" target="_blank">
+    <FaMedium className="hover:text-gray-600" />
+  </a>
+
+  <a href="/resume.pdf">
+    <FaFileAlt className="hover:text-gray-600" />
+  </a> */}
+
+</div>
 
       </main>
     </>
