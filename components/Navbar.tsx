@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Blog", href: "/blog" },
+    // { name: "Blog", href: "/blog" },
     { name: "Projects", href: "/projects" },
     { name: "Experience", href: "/experience" },
     { name: "Education", href: "/education" },
@@ -28,11 +28,10 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
- className={`pb-2 border-b-2 transition-all duration-200 ease-in-out ${
-  isActive
-    ? "border-foreground font-semibold"
-    : "border-transparent hover:border-gray-400"
-}`}
+              className={`pb-2 border-b-2 transition-all duration-200 ease-in-out ${isActive
+                ? "border-foreground font-semibold"
+                : "border-transparent hover:border-gray-400"
+                }`}
             >
               {link.name}
             </Link>

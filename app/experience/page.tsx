@@ -32,7 +32,7 @@ export default function Experience() {
     <main className="max-w-3xl mx-auto px-6 mt-12 min-h-screen pb-24">
 
       {/* Breadcrumb */}
-      <div className="text-sm text-gray-500 mb-5">
+      <div className="text-xl text-gray-500 mb-5">
         <Link href="/" className="hover:underline">
           Home
         </Link>
