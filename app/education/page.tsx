@@ -8,14 +8,14 @@ export default function Education() {
       degree: "MSc Data Science & its Applications",
       university: "University of Essex (UK)",
       duration: "Jan 2023 - Jan 2024",
-      logo: "/UOE_Logo.png"
+      logo: "/company_logos/UOE_Logo.png",
     },
     {
       slug: "bachelors-ee",
       degree: "Bachelors of Electronics & Communication Engineering",
       university: "Mangalore Institute of Technology & Engineering (India)",
       duration: "Sept 2016 - Sept 2020",
-      logo: "/MITE_Logo.png"
+      logo: "/company_logos/MITE_Logo.png",
     },
   ];
 

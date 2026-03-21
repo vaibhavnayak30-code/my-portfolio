@@ -17,14 +17,14 @@ export default function Experience() {
       job_role: "Software Developer",
       company: "University of Essex (UK)",
       duration: "Nov 2024 - Present",
-      logo: "/UOE_Logo.png",
+      logo: "/company_logos/UOE_Logo.png",
     },
     {
       slug: "infy-dev",
       job_role: "Software Engineer",
       company: "Infosys (India)",
       duration: "March 2021 - Dec 2022",
-      logo: "/Infosys_Logo.png"
+      logo: "/company_logos/Infosys_Logo.png"
     },
   ];
 
